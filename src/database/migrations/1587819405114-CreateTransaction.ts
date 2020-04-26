@@ -26,9 +26,13 @@ export default class CreateTransaction1587819405114
             isNullable: false,
           }),
           new TableColumn({
+            name: 'type',
+            type: 'varchar',
+            isNullable: false,
+          }),
+          new TableColumn({
             name: 'value',
             type: 'decimal',
-            precision: 2,
             isNullable: false,
           }),
           new TableColumn({
